@@ -8,6 +8,7 @@ import { ArrowLeftIcon } from '@heroicons/react/solid';
 import { toast } from 'react-toastify';
 import { db } from '../firebaseconfig';
 import { addDoc, collection, deleteDoc, doc, getDocs, query, where } from 'firebase/firestore';
+const Newscontent =
 
 const NewsContent = () => {
     // state to check whether this news is favorite or not

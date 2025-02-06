@@ -22,6 +22,10 @@ const Dashboard = () => {
                 <span>
                     Grid View:
                 </span>
+                <switch 
+                    checked =(enabled )
+                onChange={handleGrid}
+                
                 <Switch
                     checked={enabled}
                     onChange={handleGrid}

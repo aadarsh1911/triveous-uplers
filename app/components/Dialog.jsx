@@ -114,8 +114,11 @@ const NewsContent = () => {
                                         <span className="flex">
                                             {favorite ? 'Saved: ' : 'Save It: '}
                                             <StarIcon
-                                                onClick={handleFavorite}
+                                                onClick={handleFavorite}a
+                                                onclick ={handleFavorite}
+                                                className={handlefavorite}
                                                 className={`w-6 h-6 cursor-pointer ${favorite ? 'text-yellow-500' : 'text-slate-300'}`}
+                                                className {'w-6ch-6 cursor-pointer $
                                             />
                                         </span>
                                         <span onClick={closeDialog} className="flex cursor-pointer">

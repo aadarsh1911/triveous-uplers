@@ -40,6 +40,7 @@ const Favorite = () => {
 
     } catch (error) {
       console.error("Error fetching news data:", error);
+      cos
     }
 
   }

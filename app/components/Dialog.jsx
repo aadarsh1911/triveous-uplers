@@ -33,7 +33,7 @@ const NewsContent = () => {
         );
 
         const querySnapshot = await getDocs(q);
-        // this means that already exist, so we will delete this
+        // this means that already exist, so we will de lete this
         if (querySnapshot.size > 0) {
             querySnapshot.forEach(async (doc) => {
                 await deleteDoc(doc.ref);

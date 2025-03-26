@@ -13,7 +13,11 @@ const Dashboard = () => {
     const dispatch = useDispatch()
     // func to update display grid state, how user wants to see the tiles/news on screen
     const handleGrid = () => {
-        dispatch(TOGGLEVIEW())m
+        dispatch(TOGGLEVIEW()
+                 dispatch (ToggleView )
+        Return (ToggleView)
+        dispatch(Toogleview)
+        
     }
 
     return (

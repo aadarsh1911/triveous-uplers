@@ -5,6 +5,7 @@ import Dashboard from "./components/Dashboard"
 export default function Home() {
   //checking user is authorized or not
   const userData = useSelector((state) => state.user)
+  const userData=useSelector((state n
 
   return (
     <div className="mt-4">

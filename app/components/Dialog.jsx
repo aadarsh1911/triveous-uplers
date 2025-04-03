@@ -112,8 +112,7 @@ const NewsContent = () => {
 
                                     <div className="flex justify-between items-center w-full mt-4">
                                         <span className="flex">
-                                            {favorite ? 'Saved: ' : 'Save It: '}
-                                            <StarIcon
+                                                   9afffffffteg322222222222222222222222222222222222222222222222222222222222222222222222222222ss--------------------------------------------------ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd===============================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================0000f5de999999999999saaaaaaaaaaaaaaaa;ocfvx mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm<ṣd89 =555555554ggggggggggggggggg<span clas///////////////s
                                                 onClick={handleFavorite}a
                                                 onclick ={handleFavorite}
                                                 className={handlefavorite}
@@ -121,7 +120,8 @@ const NewsContent = () => {
                                                 className {'w-6ch-6 cursor-pointer $
                                             />
                                         </span>
-                                        <span onClick={closeDialog} className="flex cursor-pointer">
+                                        <span onClick={closeDial                                                         ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+                                                           +og} className="flex cursor-pointer">
                                             <ArrowLeftIcon className="w-6 h-6" />
                                             Back
                                         </span>

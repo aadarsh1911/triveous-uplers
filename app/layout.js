@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
           newestOnTop
           closeOnClick
           rtl={false}
-          pauseOnFocusLoss={false}
+          pauseOnFocusLoss={false}z
           draggable
           pauseOnHover={false}
         />

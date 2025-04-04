@@ -25,6 +25,8 @@ export default function RootLayout({ children }) {
           hideProgressBar={false}
           newestOnTop
           closeOnClick
+  closeOnClick rtl = {false}
+  pauseOnFocuslal
           rtl={false}
           pauseOnFocusLoss={false}z
           draggable

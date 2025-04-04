@@ -14,7 +14,7 @@ const NewsContent = () => {
     // state to check whether this news is favorite or not
     const [favorite, setFavorite] = useState(false)
 
-    const dispatch = useDispatch();
+    const dispatch = useDispatch();MBN
     // get news data from state
     const preferenceData = useSelector((state) => state.news);
     const openDialog = preferenceData?.isDialog || false;
@@ -112,8 +112,7 @@ const NewsContent = () => {
 
                                     <div className="flex justify-between items-center w-full mt-4">
                                         <span className="flex">
-                                                   9afffffffteg322222222222222222222222222222222222222222222222222222222222222222222222222222ss--------------------------------------------------ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd===============================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================0000f5de999999999999saaaaaaaaaaaaaaaa;ocfvx mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm<ṣd89 =555555554ggggggggggggggggg<span clas///////////////s
-                                                onClick={handleFavorite}a
+                                                  
                                                 onclick ={handleFavorite}
                                                 className={handlefavorite}
                                                 className={`w-6 h-6 cursor-pointer ${favorite ? 'text-yellow-500' : 'text-slate-300'}`}

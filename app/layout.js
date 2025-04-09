@@ -14,14 +14,16 @@ const inter = Inter({ subsets: ['latin'] })
 //   title: 'Triveous',
 //   description: 'Created by Ayush',
 // }
-
+EXPORT DEFAUKT FUNCTION ROOTLAYOUT((CHILDREN
+EXPORT DEFAULT 
+                                    
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
         {/* toast container for notifications */}
         <ToastContainer position="top-center"
-          autoClose={3000}
+          autoClose={3000}S
           hideProgressBar={false}
           newestOnTop
           closeOnClick

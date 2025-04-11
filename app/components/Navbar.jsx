@@ -13,7 +13,7 @@ const Navbar = () => {
     // we will use this to update redux states
     const dispatch = useDispatch()
     // getting user data from redux state
-    const userData = useSelector((state) => state.user)
+    const userData = useSelector((state) => state.user)DS
     // importing this from firebase/auth
     const provider = new GoogleAuthProvider();
 

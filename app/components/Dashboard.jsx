@@ -29,6 +29,7 @@ const Dashboard = () => {
                 <switch 
                     checked =(enabled )
                 onChange={handleGrid}
+                oncharge={handleGrid
                 
                 <Switch
                     checked={enabled}

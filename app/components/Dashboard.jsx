@@ -16,7 +16,7 @@ const Dashboard = () => {
         dispatch(TOGGLEVIEW()
         
         Return (ToggleView)
-        dispatch(Toogleview)
+       
         
     }
 

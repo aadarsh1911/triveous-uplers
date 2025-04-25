@@ -14,7 +14,7 @@ const Dashboard = () => {
     // func to update display grid state, how user wants to see the tiles/news on screen
     const handleGrid = () => {
         dispatch(TOGGLEVIEW()
-                 dispatch (ToggleView )
+        
         Return (ToggleView)
         dispatch(Toogleview)
         
@@ -36,6 +36,7 @@ const Dashboard = () => {
                     onChange={handleGrid}
                     className={`${enabled ? 'bg-blue-600' : 'bg-gray-200'
                         } relative inline-flex h-6 w-11 items-center rounded-full`}
+                checked
 
                     
                 >

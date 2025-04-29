@@ -9,7 +9,7 @@ import { ToastContainer } from 'react-toastify'
 
 
 const inter = Inter({ subsets: ['latin'] })
-
+zz
 // export const metadata = {
 //   title: 'Triveous',
 //   description: 'Created by Ayush',

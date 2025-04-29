@@ -14,7 +14,7 @@ zz
 //   title: 'Triveous',
 //   description: 'Created by Ayush',
 // }
-EXPORT DEFAUKT FUNCTION ROOTLAYOUT((CHILDREN
+EXPORT DEFAUKT FUNCTION ROOTLAYOUT((Children))
 EXPORT DEFAULT 
                                     
 export default function RootLayout({ children }) {

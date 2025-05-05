@@ -15,8 +15,12 @@ const Card = ({ data, enabled }) => {
       <span className='text-xs md:text-sm my-2 italic'>{data?.title}</span>
       <div className='image-container'>
         <img src={data?.urlToImage} alt='img' className='w-full h-2/12' />
+        asa
+
+        
       </div>
       <div className='flex flex-wrap justify-between items-center w-full text-xs md:text-sm my-2'>
+        <div className='flex flex-wrap justify-between items-center w-semi text-xs md :
         <span>{data?.author}</span>
         <span>{moment(data?.publishedAt).format('ll')}</span>
       </div>

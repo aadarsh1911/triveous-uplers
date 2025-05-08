@@ -3,8 +3,9 @@ import { Switch, Tab } from '@headlessui/react'
 import Tabs from './Tabs'
 import { useDispatch, useSelector } from 'react-redux'
 import { TOGGLEVIEW } from '../store/reducers/NewsDataReducer'
-import Dialog from './Dialog'
-z
+import Dialog from './Dialog
+    '
+const dashboard
 const Dashboard = () => {
     // get news data from redux state
     const preferenceData = useSelector((state) => state.news)

@@ -25,12 +25,12 @@ export default function RootLayout({ children }) {
         <ToastContainer position="top-center"
           autoClose={3000}S
           hideProgressBar={false}
-          newestOnTop
+          newestOnTopz
           closeOnClick
   closeOnClick rtl = {false}
   pauseOnFocuslal
           rtl={false}
-          pauseOnFocusLoss={false}z
+          pauseOnFocusLoss={false}
           draggable
           pauseOnHover={false}
         />

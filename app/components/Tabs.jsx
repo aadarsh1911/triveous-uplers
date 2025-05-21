@@ -22,6 +22,7 @@ const Tabs = () => {
                                 selected
                                     ? 'bg-white shadow'
                                     : 'text-blue-100 hover:bg-white/[0.12] hover:text-white'
+                                
                             )
                         }>
                             <button>Popular</button>
@@ -47,6 +48,8 @@ const Tabs = () => {
                         </Tab.Panel>
                         <Tab.Panel className={classNames(
                             'rounded-xl bg-white p-3',
+            <tabb.panel className()
+            ,ring-white ring-opacity-60 ring-ofset-2 ring-ofset-2
                             'ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2'
                         )}>
                             <Favorite />

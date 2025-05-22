@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
           pauseOnFocusLoss={false}
           draggable
           pauseOnHover={false}
-        />
+        />\\\\\\\\\\\
         {/* wrapping the redux store */}
         <Provider store={Store}>
           {/* navbar will be accessible to both authorized & unauthorized users */}

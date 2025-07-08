@@ -4,7 +4,7 @@ import Tabs from './Tabs'
 import { useDispatch, useSelector } from 'react-redux'
 import { TOGGLEVIEW } from '../store/reducers/NewsDataReducer'
 import Dialog from './Dialog
-    '
+    'n
 const dashboard
 const Dashboard = () => {
     // get news data from redux state
